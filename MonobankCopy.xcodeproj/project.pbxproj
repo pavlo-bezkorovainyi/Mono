@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D07F35EC2ACE29A500F73A1F /* MonobankCopyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35EB2ACE29A500F73A1F /* MonobankCopyApp.swift */; };
-		D07F35EE2ACE29A500F73A1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35ED2ACE29A500F73A1F /* ContentView.swift */; };
 		D07F35F02ACE29A500F73A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F35EF2ACE29A500F73A1F /* Assets.xcassets */; };
 		D07F35F32ACE29A500F73A1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F35F22ACE29A500F73A1F /* Preview Assets.xcassets */; };
+		D07F35FC2ACE2B5600F73A1F /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35FB2ACE2B5600F73A1F /* MainScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D07F35E82ACE29A500F73A1F /* MonobankCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonobankCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07F35EB2ACE29A500F73A1F /* MonobankCopyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonobankCopyApp.swift; sourceTree = "<group>"; };
-		D07F35ED2ACE29A500F73A1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D07F35EF2ACE29A500F73A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07F35F22ACE29A500F73A1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D07F35FB2ACE2B5600F73A1F /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,9 @@
 		D07F35EA2ACE29A500F73A1F /* MonobankCopy */ = {
 			isa = PBXGroup;
 			children = (
+				D07F35FA2ACE2B2200F73A1F /* Components */,
+				D07F35F92ACE2AE700F73A1F /* MainScreen */,
 				D07F35EB2ACE29A500F73A1F /* MonobankCopyApp.swift */,
-				D07F35ED2ACE29A500F73A1F /* ContentView.swift */,
 				D07F35EF2ACE29A500F73A1F /* Assets.xcassets */,
 				D07F35F12ACE29A500F73A1F /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				D07F35F22ACE29A500F73A1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D07F35F92ACE2AE700F73A1F /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D07F35FB2ACE2B5600F73A1F /* MainScreenView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		D07F35FA2ACE2B2200F73A1F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07F35EE2ACE29A500F73A1F /* ContentView.swift in Sources */,
+				D07F35FC2ACE2B5600F73A1F /* MainScreenView.swift in Sources */,
 				D07F35EC2ACE29A500F73A1F /* MonobankCopyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
